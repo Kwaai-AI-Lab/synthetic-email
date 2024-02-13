@@ -1,4 +1,4 @@
-Subject: Welcome to Our Community, Jeany!
+Subject: Welcome to Our Community, {Name}!
 
 Dear {Name},
 
