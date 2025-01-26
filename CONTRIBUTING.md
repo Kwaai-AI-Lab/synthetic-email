@@ -41,11 +41,10 @@ Please ensure all changes are well-documented and accompanied by examples, where
    git checkout -b feature-name
 
 1. **Make Your Changes**
-   Add or modify the code, datasets, or documentation.
+    Add or modify the code, datasets, or documentation.
 
-1. **Write Descriptive Commit Messages**\
-
-   Clearly explain your changes in commit messages:
+1. **Write Descriptive Commit Messages**
+    Clearly explain your changes in commit messages:
    ```bash
    git commit -m "Add new data"
 
