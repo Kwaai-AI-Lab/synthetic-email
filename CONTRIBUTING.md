@@ -35,20 +35,22 @@ Please ensure all changes are well-documented and accompanied by examples, where
 1. **Fork the Repository**  
    Fork this repository to your GitHub account.
 
-2. **Create a Branch**  
+1. **Create a Branch**  
    Create a new branch for your changes:
    ```bash
    git checkout -b feature-name
 
-3. **Make Your Changes**
+1. **Make Your Changes**
    Add or modify the code, datasets, or documentation.
 
-4. **Write Descriptive Commit Messages**
+1. **Write Descriptive Commit Messages**\
+
    Clearly explain your changes in commit messages:
    ```bash
    git commit -m "Add new data"
 
-5. Submit a Pull Request
+1. **Submit a Pull Request**
+
    Push your changes to your fork and open a pull request to the main repository.
 ---
 
