@@ -1,6 +1,6 @@
 ## Synthetic Data for Jane Lila
 
-This repository houses synthetic data specifically curated for Jane Lila. The data is designed to support testing and development of a Personal AI Assistant, enabling robust evaluation of natural language processing capabilities, personalized interactions, and overall assistant functionality. The synthetic dataset includes emails, messages, and other relevant text examples, ensuring comprehensive testing for tasks such as contextual understanding, response generation, and user intent recognition.
+This repository houses synthetic data specifically curated for Jane Lila. The data is designed to support testing and development of a Personal AI Assistant, enabling robust evaluation of PAI capabilities, personalized interactions, and overall assistant functionality. The synthetic dataset includes emails, messages, and other relevant text examples, ensuring comprehensive testing for tasks such as contextual understanding, response generation, and user intent recognition.
 
 ---
 
