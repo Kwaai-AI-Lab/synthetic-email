@@ -14,11 +14,7 @@ ollama_model = OllamaLLM(
 memory = ConversationBufferMemory()
 
 # Create a conversation chain
-conversation = ConversationChain(
-    llm=ollama_model,
-    memory=memory,
-    verbose=True
-)
+conversation = ollama_model | memory
 
 # Function to handle personal information
 def collect_personal_info():
@@ -30,7 +26,14 @@ def collect_personal_info():
         "Date of Birth": "1990-04-15",
         "Gender": "Female",
         "Nationality": "American",
-        "Marital Status": "Single"
+        "Marital Status": "Single",
+        "Social Security Number (SSN)": "123-45-6789",
+        "Passport Number": "X1234567",
+        "Driver's License Number": "D1234567",
+        "National ID Card Number": "NID-987654321",
+        "Tax Identification Number": "TIN-1122334455",
+        "Employee ID Number": "EMP-55667788",
+        "Student ID Number": "STU-33445566",
     }
     
     return personal_info
