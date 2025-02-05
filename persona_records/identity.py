@@ -14,7 +14,11 @@ ollama_model = OllamaLLM(
 memory = ConversationBufferMemory()
 
 # Create a conversation chain
-conversation = ollama_model | memory
+conversation = ConversationChain(
+    llm = ollama_model,
+    memory = memory,
+    verbose = False
+    )
 
 # Function to handle personal information
 def collect_personal_info():
